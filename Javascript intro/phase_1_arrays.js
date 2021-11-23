@@ -52,17 +52,4 @@ Array.prototype.transpose = function() {
 }
 
 
-// Array.prototype.transpose = function() {
-//     const arr = [];
-//     let i = 0;
-//     while(arr.length < this.length) {
-//         this[i].forEach(function(subArr) {
-//             console.log(subArr);
-//         });
-//         i++;
-//     }
-// }
 
-// [[1,2,3]     [1,a,4]
-//  [a,b,c]     [2,b,5]
-//  [4,5,6]]    [3,c,6]
